@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: #0081C9;
+}
+
+h2, p, form, div, input, dl, dt, dd {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+

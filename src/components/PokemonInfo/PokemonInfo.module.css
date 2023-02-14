@@ -1,0 +1,55 @@
+.wrapper {
+  width: 100%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 1rem;
+
+  border: 0.5rem #86e5ff solid;
+  border-radius: 0.25rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.text {
+  font-size: 1rem;
+  color: #666;
+}
+
+.image {
+  width: 20rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.table {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  color: #333;
+}
+
+.table tr:nth-child(odd) {
+  background: #eee;
+}
+
+.table tr td {
+  width: 50%;
+  padding: 0.5rem 0;
+}
+
+.table tr td:first-child {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+.table tr :not(td:first-child) { 
+  padding-left: 1rem;
+}

@@ -1,0 +1,9 @@
+.logo {
+  width: auto;
+  height: 8rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}

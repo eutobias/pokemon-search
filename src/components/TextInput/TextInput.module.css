@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  border: 0.5rem #86e5ff solid;
+  border-radius: 0.25rem;
+  flex-shrink: 0;
+}
+
+.input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  flex-grow: 1;
+  border: none;
+  background: #fff;
+  color: #333;
+  outline: none;
+}
+
+.input::placeholder {
+  color: #AAA;
+}

@@ -1,0 +1,64 @@
+.overlay {
+  position: absolute;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content-wrapper {
+  position: relative;
+  border: 0.5rem solid #fd8a8a;
+  border-radius: 0.25rem;
+  background: #fff;
+  min-width: 20rem;
+  max-width: 40rem;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+.content {
+  text-align: center;
+  color: #333;
+  font-weight: 500;
+}
+
+.close-wrapper {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.close-button {
+  position: relative;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  text-indent: -9000px;
+}
+
+.close-button::before,
+.close-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform-origin: 50%;
+  transform: translateX(-50%) rotateZ(45deg);
+  width: 0.125rem;
+  height: 100%;
+  background: #333;
+  border-radius: 0.125rem;
+}
+.close-button::before {
+  transform: translateX(-50%) rotateZ(-45deg);
+}
